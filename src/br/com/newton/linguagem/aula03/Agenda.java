@@ -33,9 +33,9 @@ public class Agenda {
         tel3.marca = "iphone";
 
 
-        System.out.println(tel.cont1.nome + tel.cont1.numero);
-        System.out.println(tel2.cont2.nome + tel2.cont2.numero);
-        System.out.println(tel3.cont3.nome + tel3.cont3.numero);
+        System.out.println(tel.cont1.nome +"  "+ tel.cont1.numero+"  " +tel.marca);
+        System.out.println(tel2.cont2.nome +"  "+ tel2.cont2.numero + "  "+ tel2.marca);
+        System.out.println(tel3.cont3.nome +"  "+ tel3.cont3.numero+ "  " +tel3.marca);
 
     }
 }
