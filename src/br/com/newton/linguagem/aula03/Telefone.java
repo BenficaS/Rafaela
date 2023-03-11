@@ -7,12 +7,35 @@ public class Telefone {
     public String marca;
 
     public void tocar(String estiloMusical){
-        System.out.println("tocando" + estiloMusical);
+        if (estiloMusical == "pagode" )
+        System.out.println("só tocamos pagode" );
+        else
+            System.out.println("o estilo musical não é pagode");
     }
 
-    Contato cont1;
-    Contato cont2;
-    Contato cont3;
+
+
+
+    //public void ligar(Contato contato ){System.out.println("ligar" );}
+
+    //public void ligar(Telefone tele){ System.out.println();
+    //if (tele.cor == "preto")
+    //System.out.println("ligar");
+
+
+    //else
+    //System.out.println("o telefone é invalido");
+
+    //}
+    public void ligar(Contato contato){
+        if(contato.nome == "juliana")
+            System.out.println("ligar para juliana");
+        else
+            System.out.println(" o contato não é a juliana");
+    }
+
+
 
 
 }
+

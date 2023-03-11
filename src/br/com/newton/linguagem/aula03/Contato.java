@@ -4,4 +4,5 @@ public class Contato {
    // são atributos
   public String nome;
   public String numero;
+
 }
